@@ -9,7 +9,8 @@
     <!-- Page Header -->
     <div class="text-left p-2 mt-1 bg-success">
         <h3>Place Order </h3>
-    </div> <!-- End Page Header -->
+    </div>
+    <!-- End Page Header -->
 
 
     <!-- Content Wrapper -->
@@ -19,40 +20,88 @@
         <div class="col-xs-10 border border-dark p-2">
 
             <!-- Order Information -->
+            <!-- Order Wrapper -->
+            <div class="mb-4">
+
+                <div class="d-block m-2 mb-4">
+                    <h2>Order Information</h2>
+                </div>
+
+                <!-- Pet Name -->
+                <div class="d-block m-2">
+
+                    <label>Pet Name: </label>
+                    <asp:TextBox placeholder="Molly" runat="server" />
+
+                </div>
+
+                <!-- Owner First Name -->
+                <div class="d-block m-2">
+
+                    <label>Owner First Name: </label>
+                    <asp:TextBox placeholder="John" runat="server" />
+
+                    <label>Last Name: </label>
+                    <asp:TextBox placeholder="Doe" runat="server" />
+
+                </div>
+
+                <!-- Owner E-Mail -->
+                <div class="d-block m-2">
+
+                    <label>Owner E-Mail: </label>
+                    <asp:TextBox placeholder="example@gmail.com" runat="server" />
+
+                </div>
+            </div>
+
+
+            <!-- Medication Information -->
             <div class="d-block m-2 mb-4">
-                <h2>Order Information</h2>
+                <h2>Medication Information</h2>
             </div>
 
-            <!-- Pet Name -->
+            <!-- Medication Name -->
             <div class="d-block m-2">
 
-                <label>Pet Name: </label>
-                <asp:TextBox placeholder="Molly" runat="server" />
+                <label>Medication Name: </label>
+                <asp:TextBox placeholder="Dioxycycline" runat="server" />
 
             </div>
 
-            <!-- Owner First Name -->
+            <!-- Medication Dosage -->
             <div class="d-block m-2">
 
-                <label>Owner First Name: </label>
-                <asp:TextBox placeholder="John" runat="server" />
-
-                <label>Owner Last Name: </label>
-                <asp:TextBox placeholder="Doe" runat="server" />
+                <label>Dosage: </label>
+                <asp:TextBox placeholder="5" runat="server" />
 
             </div>
 
-            <!-- Owner E-Mail -->
+            <!-- Medication Unit -->
             <div class="d-block m-2">
 
-                <label>Owner E-Mail: </label>
-                <asp:TextBox placeholder="example@gmail.com" runat="server" />
+                <label>Dosage Unit: </label>
+                <asp:TextBox placeholder="mg" runat="server" />
 
             </div>
 
-        </div> <!-- End Content -->
+            <!-- Medication Amount -->
+            <div class="d-block m-2">
 
-    </div> <!-- End Content Wrapper -->
+                <label>Quantity: </label>
+                <asp:TextBox placeholder="50 capsules" runat="server" />
+
+            </div>
+
+            <div class="p-2">
+                <asp:Button Text="Place Order" runat="server"/>
+            </div>
+
+        </div>
+        <!-- End Content -->
+
+    </div>
+    <!-- End Content Wrapper -->
 
 
 </asp:Content>

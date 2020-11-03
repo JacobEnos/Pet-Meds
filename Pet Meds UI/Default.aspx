@@ -19,10 +19,10 @@
         <!-- Content -->
         <div class="col-xs-10 border border-dark p-2">
 
-            <!-- Order Information -->
             <!-- Order Wrapper -->
             <div class="mb-4">
 
+                <!-- Order Information -->
                 <div class="d-block m-2 mb-4">
                     <h2>Order Information</h2>
                 </div>

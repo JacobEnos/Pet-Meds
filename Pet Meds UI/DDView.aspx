@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Page3.aspx.cs" Inherits="Pet_Meds_UI.Page3" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="DDView.aspx.cs" Inherits="Pet_Meds_UI.Page3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -13,10 +13,10 @@
     <div class="text-center m-5">
 
         <!-- Content -->
-        <div class="col-xs-10 border border-dark p-2">
+        <div class="col-xs-10 border border-dark p-2 text-center">
 
             <!-- Fake Repeater Item -->
-            <div class="container bg-light p-4 mx-3 mb-3" style="border-radius: 5px; box-shadow: 0px 1px 5px">
+            <div class="container bg-light p-4 mb-3" style="border-radius: 5px; box-shadow: 0px 1px 5px">
 
                 <!-- Order Content -->
                 <div class="d-flex justify-content-around mb-2">
@@ -28,14 +28,22 @@
 
                 <!-- Order Buttons -->
                 <div class="d-flex justify-content-around">
-                    
-                    <asp:Button Text="E-Mail" runat="server"/>    
-                    <asp:Button Text="Completed" runat="server"/>
-
+                    <asp:Button Text="E-Mail Vet" runat="server"/>    
+                    <asp:Button Text="E-Mail Pet Owner" runat="server"/>
+                    <asp:Button Text="E-Mail C.S. Rep" runat="server"/>
                 </div>
 
+                <br/>
 
-            </div>
+                <div class="col-xs-8">
+                    <div class="d-flex justify-content-around">
+                        <asp:Button Text="Shipped" runat="server"/>
+                        <asp:Button Text="Add to Pet Record" runat="server"/>
+                    </div>
+                </div>
+
+                
+            </div> <!-- End Repeater -->
 
 
         </div> <!-- End Content -->

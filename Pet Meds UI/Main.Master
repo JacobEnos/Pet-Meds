@@ -26,8 +26,8 @@
                 <!-- Nav Links -->
                 <div class="d-flex justify-content-around ">
                     <a href="Default.aspx"> Vet Place Order </a>
-                    <a href="Page2.aspx"> Cust. Serv. View Orders </a>
-                    <a href="Page3.aspx"> Dispensing Dept. </a>
+                    <a href="CSView.aspx"> Cust. Serv. View Orders </a>
+                    <a href="DDView.aspx"> Dispensing Dept. </a>
                 </div>
             </div> <!-- End Header -->
 

@@ -67,12 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSEdit.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="Page2.aspx" />
-    <Content Include="Page3.aspx" />
+    <Content Include="CSView.aspx" />
+    <Content Include="DDView.aspx" />
+    <Content Include="PetMedRecords.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSEdit.aspx.cs">
+      <DependentUpon>CSEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSEdit.aspx.designer.cs">
+      <DependentUpon>CSEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -87,19 +96,26 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="Page2.aspx.cs">
-      <DependentUpon>Page2.aspx</DependentUpon>
+    <Compile Include="CSView.aspx.cs">
+      <DependentUpon>CSView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page2.aspx.designer.cs">
-      <DependentUpon>Page2.aspx</DependentUpon>
+    <Compile Include="CSView.aspx.designer.cs">
+      <DependentUpon>CSView.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page3.aspx.cs">
-      <DependentUpon>Page3.aspx</DependentUpon>
+    <Compile Include="DDView.aspx.cs">
+      <DependentUpon>DDView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page3.aspx.designer.cs">
-      <DependentUpon>Page3.aspx</DependentUpon>
+    <Compile Include="DDView.aspx.designer.cs">
+      <DependentUpon>DDView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PetMedRecords.aspx.cs">
+      <DependentUpon>PetMedRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PetMedRecords.aspx.designer.cs">
+      <DependentUpon>PetMedRecords.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

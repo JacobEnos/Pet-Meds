@@ -13,10 +13,14 @@
     <div class="text-center m-5">
 
         <!-- Content -->
-        <div class="col-xs-10 border border-dark p-2 text-center">
+        <div class="col-xs-10 border border-dark text-center">
+
+            <div class="p-3 mb-4 bg-light" style="box-shadow: 0 3px 5px -2px">
+                <h3>Pending Orders</h3>
+            </div>
 
             <!-- Fake Repeater Item -->
-            <div class="container bg-light p-4 mb-3" style="border-radius: 5px; box-shadow: 0px 1px 5px">
+            <div class="container bg-light p-4 mb-5" style="border-radius: 5px; box-shadow: 0px 1px 5px">
 
                 <!-- Order Content -->
                 <div class="d-flex justify-content-around mb-2">

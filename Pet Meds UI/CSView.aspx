@@ -14,13 +14,12 @@
     <div class="text-center m-5">
 
         <!-- Content -->
-        <div class="col-xs-10 border border-dark p-2 text-center m-5">
+        <div class="col-xs-10 border border-dark text-center m-5">
 
             <!-- Orders Header -->
-            <h3>Orders</h3>
-
-
-
+            <div class="p-3 mb-4 bg-light" style="box-shadow: 0 3px 5px -2px">
+                <h3>Received Orders</h3>
+            </div>
 
             <!-- Fake Repeater Item -->
             <div class="container bg-light p-4 mb-3" style="border-radius: 5px; box-shadow: 0px 1px 5px">

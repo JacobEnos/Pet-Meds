@@ -28,17 +28,24 @@
 
                 <!-- Order Buttons -->
                 <div class="d-flex justify-content-around">
-                    <asp:Button Text="E-Mail Vet" runat="server"/>    
-                    <asp:Button Text="E-Mail Pet Owner" runat="server"/>
-                    <asp:Button Text="E-Mail C.S. Rep" runat="server"/>
+                    <asp:Button class="btn btn-info" Text="E-Mail Vet" runat="server"/>    
+                    <asp:Button class="btn btn-info" Text="E-Mail Pet Owner" runat="server"/>
+                    <asp:Button class="btn btn-info" Text="E-Mail C.S. Rep" runat="server"/>
                 </div>
 
                 <br/>
 
                 <div class="col-xs-8">
                     <div class="d-flex justify-content-around">
-                        <asp:Button Text="Shipped" runat="server"/>
-                        <asp:Button Text="Add to Pet Record" runat="server"/>
+                        
+                        <div class="col-xs-6">
+                            <asp:Button class="btn btn-success btn-lg btn-inline-block" Text="Shipped" runat="server"/>
+                        </div>
+                            
+                        <div class="col-xs-6">
+                            <asp:Button class="btn btn-success btn-lg btn-block" Text="Add to Pet Record" runat="server"/>
+                        </div>
+                        
                     </div>
                 </div>
 

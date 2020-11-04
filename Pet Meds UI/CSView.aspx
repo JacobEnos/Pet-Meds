@@ -41,13 +41,13 @@
                 <!-- Order Buttons -->
                 <div class="d-flex justify-content-around mb-2">
 
-                    <asp:Button Text="E-Mail Pet Owner" runat="server" />
-                    <asp:Button Text="To Dispensing Dept." runat="server" />
+                    <asp:Button class="btn btn-info btn-lg" Text="E-Mail Pet Owner" runat="server" />
+                    <asp:Button class="btn btn-primary btn-lg" Text="To Dispensing Dept." runat="server" />
 
                 </div>
 
                 <!-- Edit Button -->
-                <asp:Button Text="Edit" runat="server" OnClick="Unnamed1_Click" />
+                <asp:Button class="btn btn-warning" Text="Edit" runat="server" OnClick="Unnamed1_Click" />
 
             </div>
             <!-- End Repeater-->

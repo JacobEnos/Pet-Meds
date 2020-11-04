@@ -56,8 +56,8 @@
 
             <!-- Control Buttons-->
             <div class="p-2">
-                <asp:Button Text="Cancel" runat="server" OnClick="Unnamed5_Click" OnCommand="Unnamed5_Command"/>
-                <asp:Button Text="Update Order" runat="server"/>
+                <asp:Button class="btn btn-danger btn-lg" Text="Cancel" runat="server" OnClick="Unnamed5_Click" OnCommand="Unnamed5_Command"/>
+                <asp:Button class="btn btn-success btn-lg" Text="Update Order" runat="server"/>
             </div>
 
         </div> <!-- End Content -->

@@ -94,7 +94,7 @@
             </div>
 
             <div class="p-2">
-                <asp:Button Text="Place Order" runat="server"/>
+                <asp:Button class="btn btn-success btn-lg" Text="Place Order" runat="server"/>
             </div>
 
         </div>
